@@ -1,0 +1,6 @@
+crear >tamano=5 >dimensional=m
+escribir >id=1 >nombre=ejemplo3 >telefono=123 >direccion=bison >x=10
+vertodo
+verx >x=3
+editarx >x=4
+eliminarx >x=6

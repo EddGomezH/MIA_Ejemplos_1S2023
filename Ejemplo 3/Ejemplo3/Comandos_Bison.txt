@@ -1,0 +1,12 @@
+// Instalacion de Bison y Flex
+sudo apt-get update
+sudo apt-get install flex
+sudo apt-get install bison
+
+// Verificacion de Instalacion Bison y Flex
+which flex
+which bison
+
+//  Compilar Archivos .l & .y de Bison y Flex
+flex --header-file=scanner.h -o scanner.cpp ALexico.l 
+bison -o parser.cpp --defines=parser.h  ASintactico.y 
