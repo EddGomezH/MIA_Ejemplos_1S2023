@@ -1,0 +1,31 @@
+// Ejemplos de comandos reconocidos
+
+// Crea archivo binario con los parametros especificados.
+crear >tamano=10 >dimensional="m"
+
+// Escribe en archivo binario un struct con los datos especificados la cantidad de veces que fue definido.
+escribir >id=1 >nombre="abc" >telefono=123 >direccion="def" >x=20
+
+// Muestra todos los registros registrados en el archivo binario.
+vertodo
+
+// Muestra el registro en la posicion X del archivo binario.
+verx >x=5
+
+// Elimina el registro en la posicion X del archivo binario.
+eliminarx >x=3
+
+// Edita el registro en la posicion X del archivo binario.
+editarx >x=5
+
+// Graficar Disco.
+graphdisk
+
+// Graficar Tree.
+graphtree
+
+// Graficar todos los registros.
+graphall
+
+// Graficar X registro.
+graphx >x=15

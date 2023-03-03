@@ -1,0 +1,28 @@
+digraph Tree {
+rankdir = "LR"
+"node0" [label="<f0>Inodo 0|<f1>i_type: 0|<f2>Ap0: Bloq0|<f3>Ap1: -1|<f3>Ap3: -1|<f4>...|<f5>Ap15: -1" shape="record" style=filled fillcolor="cadetblue1"];
+"node1" [label="<f0>B. Carpeta 0|<f1>Users.txt: Ino1|<f2>home: Ino2|<f3>. : -1|<f4>. : -1" shape="record" style=filled fillcolor="darkolivegreen1"];
+"node2" [label="<f0>Inodo 1|<f1>i_type: 1|<f2>Ap0: Bloq1|<f3>Ap1: -1|<f3>Ap3: -1|<f4>...|<f5>Ap15: -1" shape="record" style=filled fillcolor="cadetblue1"];
+"node3" [label="<f0>B. Archivo 1|<f1>1, G, root
+1, U, root, root, 123
+" shape="record" style=filled fillcolor="gold"];
+"node4" [label="<f0>Inodo 2|<f1>i_type: 0|<f2>Ap0: Bloq2|<f3>Ap1: -1|<f3>Ap3: -1|<f4>...|<f5>Ap15: -1" shape="record" style=filled fillcolor="cadetblue1"];
+"node5" [label="<f0>B. Carpeta 2|<f1>archivos: Ino3|<f2>b.txt: Ino5|<f3>. : -1|<f4>. : -1" shape="record" style=filled fillcolor="darkolivegreen1"];
+"node6" [label="<f0>Inodo 3|<f1>i_type: 0|<f2>Ap0: Bloq3|<f3>Ap1: -1|<f3>Ap3: -1|<f4>...|<f5>Ap15: -1" shape="record" style=filled fillcolor="cadetblue1"];
+"node7" [label="<f0>B. Carpeta 3|<f1>a.txt: Ino4|<f2>. : -1|<f3>. : -1|<f4>. : -1" shape="record" style=filled fillcolor="darkolivegreen1"];
+"node8" [label="<f0>Inodo 4|<f1>i_type: 1|<f2>Ap0: Bloq4|<f3>Ap1: -1|<f3>Ap3: -1|<f4>...|<f5>Ap15: -1" shape="record" style=filled fillcolor="cadetblue1"];
+"node9" [label="<f0>B. Archivo 4|<f1>0123456789012345" shape="record" style=filled fillcolor="gold"];
+"node10" [label="<f0>Inodo 5|<f1>i_type: 1|<f2>Ap0: Bloq5|<f3>Ap1: -1|<f3>Ap3: -1|<f4>...|<f5>Ap15: -1" shape="record" style=filled fillcolor="cadetblue1"];
+"node11" [label="<f0>B. Archivo 5|<f1>mia primer semestre 2023" shape="record" style=filled fillcolor="gold"];
+"node0":f2 -> "node1":f0;
+"node1":f1 -> "node2":f0;
+"node2":f2 -> "node3":f0;
+"node1":f2 -> "node4":f0;
+"node4":f2 -> "node5":f0;
+"node5":f1 -> "node6":f0;
+"node6":f2 -> "node7":f0;
+"node7":f1 -> "node8":f0;
+"node8":f2 -> "node9":f0;
+"node5":f2 -> "node10":f0;
+"node10":f2 -> "node11":f0;
+}

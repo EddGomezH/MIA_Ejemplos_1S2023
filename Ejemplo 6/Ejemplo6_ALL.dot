@@ -1,0 +1,43 @@
+digraph Ejemplo6_ALL {
+rankdir = "LR"
+edge [arrowhead=vee style=dashed]
+node0[ label = "<f0>1 | <f1>abc 1 | <f2>1804289506 | <f3>def 1" shape = "record" style=filled fillcolor="cadetblue1"];
+node0:f0 -> node1:f0
+node1[ label = "<f0>2 | <f1>abc 2 | <f2>846931010 | <f3>def 2" shape = "record" style=filled fillcolor="cadetblue1"];
+node1:f0 -> node2:f0
+node2[ label = "<f0>3 | <f1>abc 3 | <f2>1681692902 | <f3>def 3" shape = "record" style=filled fillcolor="cadetblue1"];
+node2:f0 -> node3:f0
+node3[ label = "<f0>4 | <f1>abc 4 | <f2>1714637041 | <f3>def 4" shape = "record" style=filled fillcolor="cadetblue1"];
+node3:f0 -> node4:f0
+node4[ label = "<f0>5 | <f1>abc 5 | <f2>1957747920 | <f3>def 5" shape = "record" style=filled fillcolor="cadetblue1"];
+node4:f0 -> node5:f0
+node5[ label = "<f0>6 | <f1>abc 6 | <f2>424238463 | <f3>def 6" shape = "record" style=filled fillcolor="cadetblue1"];
+node5:f0 -> node6:f0
+node6[ label = "<f0>7 | <f1>abc 7 | <f2>719885515 | <f3>def 7" shape = "record" style=filled fillcolor="cadetblue1"];
+node6:f0 -> node7:f0
+node7[ label = "<f0>8 | <f1>abc 8 | <f2>1649760622 | <f3>def 8" shape = "record" style=filled fillcolor="cadetblue1"];
+node7:f0 -> node8:f0
+node8[ label = "<f0>9 | <f1>abc 9 | <f2>596516780 | <f3>def 9" shape = "record" style=filled fillcolor="cadetblue1"];
+node8:f0 -> node9:f0
+node9[ label = "<f0>10 | <f1>abc 10 | <f2>1189641553 | <f3>def 10" shape = "record" style=filled fillcolor="cadetblue1"];
+node9:f0 -> node10:f0
+node10[ label = "<f0>11 | <f1>abc 11 | <f2>1025202495 | <f3>def 11" shape = "record" style=filled fillcolor="cadetblue1"];
+node10:f0 -> node11:f0
+node11[ label = "<f0>12 | <f1>abc 12 | <f2>1350490161 | <f3>def 12" shape = "record" style=filled fillcolor="cadetblue1"];
+node11:f0 -> node12:f0
+node12[ label = "<f0>13 | <f1>abc 13 | <f2>783368825 | <f3>def 13" shape = "record" style=filled fillcolor="cadetblue1"];
+node12:f0 -> node13:f0
+node13[ label = "<f0>14 | <f1>abc 14 | <f2>1102520195 | <f3>def 14" shape = "record" style=filled fillcolor="cadetblue1"];
+node13:f0 -> node14:f0
+node14[ label = "<f0>15 | <f1>abc 15 | <f2>2044897900 | <f3>def 15" shape = "record" style=filled fillcolor="cadetblue1"];
+node14:f0 -> node15:f0
+node15[ label = "<f0>16 | <f1>abc 16 | <f2>1967514064 | <f3>def 16" shape = "record" style=filled fillcolor="cadetblue1"];
+node15:f0 -> node16:f0
+node16[ label = "<f0>17 | <f1>abc 17 | <f2>1365180679 | <f3>def 17" shape = "record" style=filled fillcolor="cadetblue1"];
+node16:f0 -> node17:f0
+node17[ label = "<f0>18 | <f1>abc 18 | <f2>1540383566 | <f3>def 18" shape = "record" style=filled fillcolor="cadetblue1"];
+node17:f0 -> node18:f0
+node18[ label = "<f0>19 | <f1>abc 19 | <f2>304089313 | <f3>def 19" shape = "record" style=filled fillcolor="cadetblue1"];
+node18:f0 -> node19:f0
+node19[ label = "<f0>20 | <f1>abc 20 | <f2>1303455878 | <f3>def 20" shape = "record" style=filled fillcolor="cadetblue1"];
+}

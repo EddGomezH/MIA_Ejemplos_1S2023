@@ -1,0 +1,12 @@
+digraph Ejemplo6_X {
+node[shape=plaintext];
+T[label=<
+<table border="1" cellborder ="1">
+<tr><td bgcolor="yellow">Ejemplo6_X</td></tr>
+<tr><td bgcolor="aquamarine">Atributo</td><td bgcolor="darkseagreen3">Valor</td></tr>
+<tr><td bgcolor="aquamarine">id</td><td bgcolor="darkseagreen3">15</td></tr>
+<tr><td bgcolor="aquamarine">nombre</td><td bgcolor="darkseagreen3">abc 15</td></tr>
+<tr><td bgcolor="aquamarine">telefono</td><td bgcolor="darkseagreen3">2044897900</td></tr>
+<tr><td bgcolor="aquamarine">direccion</td><td bgcolor="darkseagreen3">def 15</td></tr>
+</table>>];
+}

@@ -1,0 +1,34 @@
+digraph Disk {
+node [shape=box fontname=Helvetica]
+table [label=<
+<table border="0">
+<tr>
+<td border="1" bgcolor="brown1">
+<table border="0">
+<tr>
+<td border="0">MBR</td>
+</tr>
+<tr>
+<td border="0">0%</td>
+</tr>
+</table>
+</td>
+<td border="1" bgcolor="cadetblue1">Particion 1</td>
+<td border="1" bgcolor="darkolivegreen4">
+<table border="0">
+<tr>
+<td border="1" bgcolor="darkolivegreen1">EBR</td>
+<td border="1" bgcolor="darkgoldenrod1">Logica 1</td>
+<td border="1" bgcolor="darkolivegreen1">EBR</td>
+<td border="1" bgcolor="darkgoldenrod1">Logica 2</td>
+<td border="1" bgcolor="darkolivegreen1">EBR</td>
+<td border="1" bgcolor="darkgoldenrod1">Logica 3</td>
+</tr>
+</table>
+</td>
+<td border="1" bgcolor="cadetblue1">Particion 3</td>
+<td border="1" bgcolor="cadetblue1">Particion 4</td>
+</tr>
+</table>
+>]
+}
