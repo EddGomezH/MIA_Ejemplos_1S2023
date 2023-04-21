@@ -1,0 +1,4 @@
+crear_disco >tamaño=15 >dimensional=m
+escribir >nombre="analizador" >direccion="go" >telefono=123 >veces=15
+mostrar
+registrox >x=3

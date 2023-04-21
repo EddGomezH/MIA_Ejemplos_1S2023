@@ -2,10 +2,12 @@ package main
 
 import (
 	"bytes"
+	"encoding/base64"
 	"encoding/gob"
 	"encoding/json"
 	"fmt"
 	"io"
+	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
@@ -42,9 +44,23 @@ func main() {
 		w.Write([]byte(`{"result": "` + respuesta + `" }`))
 	})
 
+	mux.HandleFunc("/reportes", func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Content-Type", "application/json")
+		bytes, _ := ioutil.ReadFile("./disk.png")
+		var base64Encoding string
+		base64Encoding += "data:image/png;base64,"
+		base64Encoding += toBase64(bytes)
+		w.WriteHeader(http.StatusOK)
+		w.Write([]byte(`{"result": "` + base64Encoding + `" }`))
+	})
+
 	fmt.Println("Server ON in port 5000")
 	handler := cors.Default().Handler(mux)
 	log.Fatal(http.ListenAndServe(":5000", handler))
+}
+
+func toBase64(b []byte) string {
+	return base64.StdEncoding.EncodeToString(b)
 }
 
 func msg_error(err error) {
